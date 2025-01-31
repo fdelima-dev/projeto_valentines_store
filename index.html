@@ -17,13 +17,13 @@
 </head>
 <body data-bs-spy="scroll">
     <header id="cabecalho" class="sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-light ubuntu-light">
+        <nav class="navbar navbar-expand-lg m-0 navbar-light ubuntu-light">
             <a href="#" class="navbar-brand fw-bold px-5">Valentine's Store</a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse collapse justify-content-end" id="navbarNav">
-                <ul class="nav nav-pills d-md-flex">
+                <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item">
                         <a href="#sobre-a-loja" class="nav-link active">
                             <i class="bi bi-house-door me-1"></i>
@@ -243,73 +243,58 @@
                     <span class="text-colored">Projetos</span>
                 </h2>
                 <div class="py-3"></div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-title tex-center">
-                                    <h4>Project 1</h4>
-                                </div>
-                            </div>
-                            <div class="cardy-body">
-                                <img src="images/project1.jpg" class="card-img-top">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nobis impedit culpa ea! Nesciunt nihil aliquam dignissimos nostrum, molestias vitae harum rem impedit. Error quod voluptatem recusandae architecto sunt ipsum?</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">View project</a>
-                            </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                          <div class="card-header">
+                            <h4 class="card-title">Project 1</h4>
+                          </div>
+                          <div class="card-body">
+                            <img src="images/project1.jpg" class="card-img-top" alt="London 1">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium deleniti dolor tenetur, necessitatibus eos tempore voluptatem reiciendis, dolores doloremque dolorem id, recusandae inventore eius adipisci. Voluptatum alias voluptates odit nostrum.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                          </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-title tex-center">
-                                    <h4>Project 2</h4>
-                                </div>
-                            </div>
-                            <div class="cardy-body">
-                                <img src="images/project2.jpg" class="card-img-top">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nobis impedit culpa ea! Nesciunt nihil aliquam dignissimos nostrum, molestias vitae harum rem impedit. Error quod voluptatem recusandae architecto sunt ipsum?</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">View project</a>
-                            </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="card h-100">
+                          <div class="card-header">
+                            <h4 class="card-title">Project 2</h4>
+                          </div>
+                          <div class="card-body">
+                            <img src="images/project2.jpg" class="card-img-top" alt="London 1">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium deleniti dolor tenetur, necessitatibus eos tempore voluptatem reiciendis, dolores doloremque dolorem id, recusandae inventore eius adipisci. Voluptatum alias voluptates odit nostrum.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                          </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-title tex-center">
-                                    <h4>Project 3</h4>
-                                </div>
-                            </div>
-                            <div class="cardy-body">
-                                <img src="images/project3.jpg" class="card-img-top">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nobis impedit culpa ea! Nesciunt nihil aliquam dignissimos nostrum, molestias vitae harum rem impedit. Error quod voluptatem recusandae architecto sunt ipsum?</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">View project</a>
-                            </div>
+                      </div>
+                      <div class="col">
+                        <div class="card h-100">
+                          <div class="card-header">
+                            <h4 class="card-title">Project 3</h4>
+                          </div>
+                          <div class="card-body">
+                            <img src="images/project3.jpg" class="card-img-top" alt="London 1">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium deleniti dolor tenetur, necessitatibus eos tempore voluptatem reiciendis, dolores doloremque dolorem id, recusandae inventore eius adipisci. Voluptatum alias voluptates odit nostrum.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                          </div>
                         </div>
-                    </div>
-                    <div class="py-3"></div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-title tex-center">
-                                    <h4>Project 4</h4>
-                                </div>
-                            </div>
-                            <div class="cardy-body">
-                                <img src="images/project4.jpg" class="card-img-top w-100">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nobis impedit culpa ea! Nesciunt nihil aliquam dignissimos nostrum, molestias vitae harum rem impedit. Error quod voluptatem recusandae architecto sunt ipsum?</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">View project</a>
-                            </div>
+                      </div>
+                    <!-- <div class="py-3"></div> -->
+                    <div class="col">
+                        <div class="card h-100">
+                          <div class="card-header">
+                            <h4 class="card-title">Project 1</h4>
+                          </div>
+                          <div class="card-body">
+                            <img src="images/project4.jpg" class="card-img-top" alt="London 1">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium deleniti dolor tenetur, necessitatibus eos tempore voluptatem reiciendis, dolores doloremque dolorem id, recusandae inventore eius adipisci. Voluptatum alias voluptates odit nostrum.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                          </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
+                      </div>
+                    <div class="col-12 col-sm-6 col-md-4">
                         <div class="card">
                             <div class="card-header">
                                 <div class="card-title tex-center">
@@ -325,7 +310,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-12 col-sm-6 col-md-4">
                         <div class="card">
                             <div class="card-header">
                                 <div class="card-title tex-center">

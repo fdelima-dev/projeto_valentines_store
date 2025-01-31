@@ -77,3 +77,22 @@ footer ul li{
     display: inline-block;
     padding: 20px;
 }
+@media (max-width: 1010px){
+    #sobre-a-loja .image{
+        width: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+}
+@media (max-width: 600px){
+    #cardapio .container .nav-cardapio{
+        text-align: center;
+        width: 400px;
+        margin: 0 auto;
+    }
+}
+#navbarNav .nav .nav-item{
+    display: block;
+    float: none;
+    text-align: center;
+}
