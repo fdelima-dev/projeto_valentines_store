@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ubuntu-light {
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  header{
+    background-color: pink;
+  } 
+#cabecalho .nav .nav-link.active, .nav-link:hover{
+    background-color: #555;
+    color: #fff;
+}
+#cabecalho .navbar .navbar-collapse .nav-item .nav-link{
+    color: #fff;
+}
+.image{
+    width: 400px;
+}
+.text-colored{
+    font-family: 'Kanit', serif;
+    color: tomato;
+}
+#cabecalho .navbar .navbar-brand{
+    color: tomato;
+    font-family: 'Kanit', sans-serif;
+}
+.nav-cardapio{
+    background-color: #fff;
+}
+.nav-cardapio .nav-link:hover{
+    background-color: pink;
+}
+.nav-cardapio .nav-link .active{
+    color: tomato;
+}
+section#cardapio .nav-cardapio .nav-link{
+    color: #111;
+}
+section#cardapio .nav-cardapio .nav-link:hover, section#cardapio .nav-cardapio .nav-link.active{
+    background-color: pink;
+}
+.social-links li{ 
+    list-style-type: none;
+    display: inline;
+}
+.social-links a{
+    text-decoration: none;
+}
+#fale-conosco .btn{
+    border: none;
+    background-color: tomato;
+    display: block;
+    color: #fff;
+    margin-top: 20px;
+}
+#fale-conosco #mensagem{
+    height: 200px;
+    resize: none;
+}
+footer{
+    background-color: tomato;
+    padding: 40px;
+    width: 100%;
+}
+footer img{
+    width: 50px;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    display: inline-block;
+    padding: 20px;
+}
